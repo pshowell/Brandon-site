@@ -1,0 +1,53 @@
+/* Formatting of bacground picture */
+body{
+    height: 100%;
+    margin: 0;
+}
+.bg {
+  /* The image used */
+  background-image: url("grid.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+  opacity: 0.5;
+}
+
+/* Navbar formatting */
+.navbar-inverse{
+  opacity: 0.5;
+}
+.navbar-nav{
+  font-family: 'Permanent Marker';
+  font-size: 24px;
+  text-decoration-color: white;
+
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  min-height: 200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+
+/* Format for text boxes */
+.well {
+  border: 2px solid black;
+  border-radius: 5px;
+  opacity: 0.4;
+}
